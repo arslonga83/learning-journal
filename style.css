@@ -2,3 +2,44 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  color: #090909;
+}
+
+.logo-text {
+  font-family: 'Roboto', sans-serif;
+  color: #0E0E0E;
+  margin-left: 0.5em;
+}
+
+.menu-items {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  gap: 1em;
+}
+
+.hero {
+  background: url('./images/hero-img.png');
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  padding: 2em;
+}
+
+.hero-date {
+  margin-top: 5em;
+  font-size: 0.75rem;
+}
+
+.hero-title {
+  font-size: 2rem;
+}
