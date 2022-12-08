@@ -1,5 +1,6 @@
 import { blogPosts } from "./data.js";
 import { aboutHtml } from "./about.js";
+import { blogPostHtml } from "./blog-post.js";
 
 const homeBtn = document.querySelector('#home-btn');
 const aboutBtn = document.querySelector('#about-btn');
@@ -35,7 +36,7 @@ function getPostsHtml() {
 }
 
 function loadPost(postId) {
-  document.querySelector('#main').innerHTML = `INSERT ${postId} HERE`
+  document.querySelector('#main').innerHTML = blogPostHtml;
 }
 
 function renderAbout() {
