@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -42,4 +43,30 @@ nav {
 
 .hero-title {
   font-size: 2rem;
+}
+
+.cards-grid {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+}
+
+.card {
+  margin-bottom: 1.5em;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.date {
+  font-size: 0.75rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-description {
+  font-size: 1rem;
 }
