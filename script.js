@@ -4,7 +4,7 @@ import { loadPost } from "./loadPost.js";
 
 document.addEventListener('click', (e) => {
   if (e.target.dataset.id) {
-    // loadPost(e.target.dataset.id)
+    loadPost(e.target.dataset.id)
   } else if (e.target.id === 'home-btn') {
     location.reload();
   } else if (e.target.id === 'about-btn') {
@@ -13,11 +13,11 @@ document.addEventListener('click', (e) => {
 })
 
 // load cards from data file and render
-function getPostsHtml() {
-  let postsHtml = ''
+function getCardsHtml() {
+  let CardsHtml = ''
   let gridNumber = 1;
   blogPosts.map((post) => {
-    postsHtml += `
+    CardsHtml += `
       <div class="card 
       // this code adds a style so more cards display on large screens
         ${gridNumber > 3 && gridNumber < 7 ? 
@@ -31,7 +31,7 @@ function getPostsHtml() {
     `
     gridNumber++;
   })
-  return postsHtml;
+  return CardsHtml;
 }
 
 // function loadPost(postId) {
@@ -43,7 +43,7 @@ function renderAbout() {
 }
 
 function renderMain() {
-  document.querySelector('#cards-grid').innerHTML = getPostsHtml();
+  document.querySelector('#cards-grid').innerHTML = getCardsHtml();
 }
 
 renderMain();
