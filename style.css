@@ -6,8 +6,10 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  height: 100%;
 }
 
+/* nav section */
 nav {
   display: flex;
   align-items: center;
@@ -28,12 +30,16 @@ nav {
   gap: 1em;
 }
 
+/* main section */
 .hero {
   background: url('./images/hero-img.png');
   background-size: cover;
   background-position: center;
   color: #FFFFFF;
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .hero-date {
@@ -45,6 +51,7 @@ nav {
   font-size: 2rem;
 }
 
+/* cards section */
 .cards-grid {
   display: flex;
   flex-direction: column;
@@ -53,6 +60,7 @@ nav {
 
 .card {
   margin-bottom: 1.5em;
+  padding: 1em;
 }
 
 .card-img {
@@ -61,16 +69,20 @@ nav {
 
 .date {
   font-size: 0.75rem;
+  margin-top: 0.5em;
 }
 
 .card-title {
   font-size: 1.5rem;
+  padding: 0.5em 0;
 }
 
 .card-description {
   font-size: 1rem;
+  color: #505050;
 }
 
+/* footer section */
 footer {
   background: #202020;
   color: #ECECEC;
@@ -87,5 +99,41 @@ footer p {
   font-size: 0.75rem;
   font-weight: 400;
   color: #D7D7D7;
+}
 
+/* wide screens */
+@media(min-width: 768px) {
+  nav {
+    padding: 1.5em;
+  }
+
+  .hero {
+    height: 35vh;
+  }
+
+  .hero-title,
+  .hero-body {
+    max-width: 650px;
+  }
+
+  .hero-description,
+  .hero-date {
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+
+  .hero-title {
+    font-size: 2.25rem;
+  }
+ 
+  .cards-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+  }
+
+  .card {
+    max-width: 28vw;
+  }
 }
