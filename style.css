@@ -59,6 +59,29 @@ nav {
   font-size: 2rem;
 }
 
+  /* about page */
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  padding: 1.5em;
+}
+
+.about p {
+  margin: 1.5em 0;
+}
+
+.headshot-img {
+  width: 182px;
+}
+
+.posts-header {
+  font-weight: 700;
+  margin-top: 2em;
+  text-align: center;
+}
+
+
 /* cards section */
 .cards-grid {
   display: flex;
@@ -77,7 +100,7 @@ nav {
 }
 
 .card-img:hover {
-  scale: 1.1;
+  scale: 1.05
 }
 
 .date {
@@ -149,4 +172,24 @@ footer p {
   .card {
     max-width: 28vw;
   }
+
+  .about-intro {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+  .about {
+    padding: 2.5em;
+  }
+
+  .intro-text {
+  max-width: 60vw;
+} 
+
+  .posts-header {
+    font-size: 1.5rem;
+  }
+
+
 }

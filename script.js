@@ -1,4 +1,5 @@
 import { blogPosts } from "./data.js";
+import { aboutHtml } from "./about.js";
 
 const homeBtn = document.querySelector('#home-btn');
 const aboutBtn = document.querySelector('#about-btn');
@@ -38,9 +39,8 @@ function loadPost(postId) {
 }
 
 function renderAbout() {
-  document.querySelector('#main').innerHTML = 'INSERT ABOUT PAGE HERE'
+  document.querySelector('#main').innerHTML = aboutHtml;
 }
-
 
 function renderMain() {
   document.querySelector('#cards-grid').innerHTML = getPostsHtml();
