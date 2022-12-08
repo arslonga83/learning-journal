@@ -1,22 +1,15 @@
 import { blogPosts } from "./data.js";
 import { aboutHtml } from "./about.js";
-import { blogPostHtml } from "./blog-post.js";
-
-const homeBtn = document.querySelector('#home-btn');
-const aboutBtn = document.querySelector('#about-btn');
-
-homeBtn.addEventListener('click', () => {
-  location.reload();
-})
-
-aboutBtn.addEventListener('click', () => {
-  renderAbout();
-})
+import { loadPost } from "./loadPost.js";
 
 document.addEventListener('click', (e) => {
   if (e.target.dataset.id) {
     loadPost(e.target.dataset.id)
-  }
+  } else if (e.target.id === 'home-btn') {
+    location.reload();
+  } else if (e.target.id === 'about-btn') {
+    renderAbout();
+  } 
 })
 
 // load cards from data file and render
@@ -35,9 +28,9 @@ function getPostsHtml() {
   return postsHtml;
 }
 
-function loadPost(postId) {
-  document.querySelector('#main').innerHTML = blogPostHtml;
-}
+// function loadPost(postId) {
+//   document.querySelector('#main').innerHTML = blogPostHtml;
+// }
 
 function renderAbout() {
   document.querySelector('#main').innerHTML = aboutHtml;
