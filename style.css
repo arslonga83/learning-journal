@@ -30,6 +30,14 @@ nav {
   gap: 1em;
 }
 
+.menu-items li {
+  cursor: pointer;
+}
+
+.menu-items li:hover {
+  transform: scale(1.1);
+}
+
 /* main section */
 .hero {
   background: url('./images/hero-img.png');
@@ -65,6 +73,11 @@ nav {
 
 .card-img {
   width: 100%;
+  cursor: pointer;
+}
+
+.card-img:hover {
+  scale: 1.1;
 }
 
 .date {
