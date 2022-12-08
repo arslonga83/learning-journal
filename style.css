@@ -67,7 +67,7 @@ nav {
   padding: 1.5em;
 }
 
-.about p {
+.about-content p {
   margin: 1.5em 0;
 }
 
@@ -79,6 +79,25 @@ nav {
   font-weight: 700;
   margin-top: 2em;
   text-align: center;
+}
+
+/* blog page */
+.blog-post {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title {
+  font-size: 2rem;
+  margin: 0.5em 0;
+}
+
+.blog-img {
+  padding: 2em 0;
+  /* max-width: 80vw; */
+  height: auto;
+  text-align:center;
 }
 
 
