@@ -31,12 +31,11 @@ function getCardsHtml() {
     `
     gridNumber++;
   })
+  CardsHtml += `
+    <span class="posts-header"><a id="more" class="more" href=#>View More<a/></span>
+    `
   return CardsHtml;
 }
-
-// function loadPost(postId) {
-//   document.querySelector('#main').innerHTML = blogPostHtml;
-// }
 
 function renderAbout() {
   document.querySelector('#main').innerHTML = aboutHtml;
@@ -48,5 +47,12 @@ function renderMain() {
 
 renderMain();
 
+
+document.querySelector('#more').addEventListener('click', (e) => {
+  e.preventDefault(); //prevent autoscroll to top
+  document.querySelectorAll('.card').forEach((card) => {
+    card.style.display = 'block'
+  })
+})
 
 

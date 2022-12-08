@@ -75,7 +75,7 @@ nav {
   width: 182px;
 }
 
-.posts-header {
+.posts-header, .more {
   font-weight: 700;
   margin-top: 2em;
   text-align: center;
@@ -115,6 +115,10 @@ nav {
 /* only display 3 cards on small screens */
 .bigScreenCards {
   display: none;
+}
+
+#more {
+  color: black;
 }
 
 .card-img {
@@ -201,9 +205,9 @@ footer p {
   }
 
   .about-intro {
-  display: flex;
-  align-items: center;
-  gap: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
 }
 
   .about {
@@ -211,12 +215,15 @@ footer p {
   }
 
   .intro-text {
-  max-width: 60vw;
+    max-width: 60vw;
 } 
 
   .posts-header {
     font-size: 1.5rem;
   }
 
+  .more {
+    font-size: 1rem;
+  }
 
 }
