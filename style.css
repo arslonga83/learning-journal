@@ -119,6 +119,8 @@ nav {
 
 #more {
   color: black;
+  margin: 0 auto 3em;
+  display: block;
 }
 
 .card-img {
@@ -224,6 +226,7 @@ footer p {
 
   .more {
     font-size: 1rem;
+    
   }
 
 }
