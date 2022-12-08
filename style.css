@@ -112,6 +112,11 @@ nav {
   padding: 1em;
 }
 
+/* only display 3 cards on small screens */
+.bigScreenCards {
+  display: none;
+}
+
 .card-img {
   width: 100%;
   cursor: pointer;
@@ -189,6 +194,10 @@ footer p {
 
   .card {
     max-width: 28vw;
+  }
+
+  .bigScreenCards {
+    display: block;
   }
 
   .about-intro {
