@@ -70,3 +70,22 @@ nav {
 .card-description {
   font-size: 1rem;
 }
+
+footer {
+  background: #202020;
+  color: #ECECEC;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+footer h4 {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+footer p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #D7D7D7;
+
+}
