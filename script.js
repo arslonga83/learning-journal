@@ -21,7 +21,6 @@ function getCardsHtml() {
   blogPosts.map((post) => {
     CardsHtml += `
       <div class="card 
-      // this code adds a style so more cards display on large screens
         ${gridNumber > 3 && gridNumber < 7 ? 
           'bigScreenCards' : 
           ''}"> 
