@@ -9,7 +9,9 @@ document.addEventListener('click', (e) => {
     location.reload();
   } else if (e.target.id === 'about-btn') {
     renderAbout();
-  } 
+  } else if (e.target.id === 'hamburger') {
+    displayMenu();
+  }
 })
 
 // load cards from data file and render
@@ -35,6 +37,11 @@ function getCardsHtml() {
   //   <span class="posts-header"><a id="more" class="more" href=#>View More<a/></span>
   //   `
   return CardsHtml;
+}
+
+function displayMenu() {
+  const menu = document.getElementById('menu-items');
+  menu.classList.toggle('menu-on')
 }
 
 function renderAbout() {

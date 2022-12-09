@@ -11,10 +11,14 @@ body {
 
 /* nav section */
 nav {
-  display: flex;
-  align-items: center;
   padding: 1em;
   color: #090909;
+  position: relative;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
 }
 
 .logo-text {
@@ -25,17 +29,27 @@ nav {
 
 .menu-items {
   list-style: none;
-  display: flex;
-  margin-left: auto;
-  gap: 1em;
+  display: none;
+  text-align: center;
 }
 
 .menu-items li {
   cursor: pointer;
+  margin: 1em 0;
+}
+
+.menu-on {
+  display: block;
 }
 
 .menu-items li:hover {
   transform: scale(1.1);
+}
+
+.fa-bars {
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
 
 /* main section */
@@ -69,6 +83,10 @@ nav {
 
 .about-content p {
   margin: 1.5em 0;
+}
+
+.intro-text h1 {
+  margin: 1em 0;
 }
 
 .headshot-img {
@@ -170,7 +188,24 @@ footer p {
 @media(min-width: 768px) {
   nav {
     padding: 1.5em;
+    display: flex;
+    align-items: center;
   }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .fa-bars:hover {
+    color: grey;
+  }
+
+  .menu-items {
+    display: flex;
+    margin-left: auto;
+    gap: 1em;
+  }
+  
 
   .hero {
     height: 35vh;
@@ -210,7 +245,11 @@ footer p {
     display: flex;
     align-items: center;
     gap: 1.5em;
-}
+  }
+  
+  .intro-text h1 {
+    margin-bottom: .25em;
+  }
 
   .about {
     padding: 2.5em;
@@ -228,5 +267,4 @@ footer p {
     font-size: 1rem;
     
   }
-
 }

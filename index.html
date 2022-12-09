@@ -8,15 +8,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="script.js" type="module" defer></script>
   <title>Scrimba Learning Journal</title>
 </head>
 <body>
 
   <nav>
-    <img src="./images/logo.png" alt="speech bubble logo">
-    <span class="logo-text">My learning journal</span>
-    <ul class="menu-items">
+    <div class="nav-left">
+      <img src="./images/logo.png" alt="speech bubble logo">
+      <span class="logo-text">My learning journal</span>
+    </div>
+    <div class="menu-icon"><i class="fa-solid fa-bars" id="hamburger"></i></div>
+    <ul class="menu-items" id="menu-items">
       <li id="home-btn">HOME</li>
       <li id="about-btn">ABOUT ME</li>
     </ul>
@@ -34,7 +38,6 @@
 
   <section class="cards-grid" id="cards-grid">
      <!-- GRID OF RECENT POSTS GOES HERE -->
-     
   </section>
   <span class="posts-header"><a id="more" class="more" href=#>View More</a></span>
   <footer>
