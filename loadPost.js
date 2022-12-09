@@ -24,5 +24,6 @@ export function loadPost(postId) {
 `
 
   document.querySelector('#main').innerHTML = blogPostHtml;
+  window.scrollTo(0, 0);
 }
 
