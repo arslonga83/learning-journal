@@ -43,7 +43,7 @@ nav {
 }
 
 .menu-items li:hover {
-  transform: scale(1.1);
+  color: grey;
 }
 
 .fa-bars {
@@ -136,10 +136,14 @@ nav {
   display: none;
 }
 
-#more {
+.more {
   color: black;
   margin: 0 auto 3em;
   display: block;
+}
+
+a:hover {
+  color: grey;
 }
 
 .card-img {
@@ -148,7 +152,7 @@ nav {
 }
 
 .card-img:hover {
-  scale: 1.05
+  opacity: 0.5;
 }
 
 .date {
