@@ -2,6 +2,6 @@
 
 
 ideas to implement....
-- when you click on a new blog post, screen should scroll up to the top
+- try color or capacity change on hover instead of scaling
 - substitute my own content/story, maybe link to other projects?
 
