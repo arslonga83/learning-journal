@@ -1,7 +1,7 @@
 export const aboutHtml = `
 <div class="about">
 <div class="about-intro">
-  <img class="headshot-img" src="./images/about-img.png" alt="headshot image">
+  <img class="headshot-img" src="./images/avatar-jeff.png" alt="headshot image">
   <div class="intro-text">
     <h1>Hi there! My name is Roku and welcome to my learning journal.</h1>
     <p>After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>

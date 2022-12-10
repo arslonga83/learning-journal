@@ -82,6 +82,12 @@ nav {
   padding: 1.5em;
 }
 
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .about-content p {
   margin: 1.5em 0;
 }
@@ -92,6 +98,7 @@ nav {
 
 .headshot-img {
   width: 182px;
+  
 }
 
 .posts-header, .more {
@@ -211,9 +218,8 @@ footer p {
     gap: 1em;
   }
   
-
   .hero {
-    height: 35vh;
+    min-height: 35vh;
   }
 
   .hero-title,
@@ -247,8 +253,7 @@ footer p {
   }
 
   .about-intro {
-    display: flex;
-    align-items: center;
+    flex-direction: row;
     gap: 1.5em;
   }
   

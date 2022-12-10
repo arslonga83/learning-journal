@@ -50,7 +50,6 @@ function renderMain() {
 
 renderMain();
 
-
 document.querySelector('#more').addEventListener('click', (e) => {
   e.preventDefault(); //prevent autoscroll to top
   document.querySelectorAll('.card').forEach((card) => {
