@@ -1,3 +1,5 @@
+// personalized ideas... performing career, pandemic video recording for job, earlist projects before scrimba, a couple of scrimba projects, link to github/linkedin?
+
 export const blogPosts = [
   {
     id: 'blog1',
