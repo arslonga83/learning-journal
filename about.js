@@ -3,15 +3,15 @@ export const aboutHtml = `
 <div class="about-intro">
   <img class="headshot-img" src="./images/avatar-jeff.png" alt="headshot image">
   <div class="intro-text">
-    <h1>Hi there! My name is Roku and welcome to my learning journal.</h1>
-    <p>After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+    <h1>Hello! My name is Jeff. Welcome to my learning journal.</h1>
+    <p>After several months exploring different courses and tutorials online, I discovered Scrimba and started working my way through the Frontend Career Path. This site is one of the solo projects - it represents an approximate halfway point in the modules, and serves to showcase some of the things I've learned.</p>
   </div>
 </div>
 <div class="about-content">
-  <h4>How I stay committed to learning</h4>
-  <p>I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create simple projects using what I learned or work new techniques into existing projects.</p>
-  <p>While that was fun, I felt like it would be helpful to share what I was learning and most things about my journey with the world.</p>
-  <h4>How I got started</h4>
+  <h4>How did I get here?</h4>
+  <p>After more than 20 years as a performing musician, I rediscovered a love of tech when I found myself working from home during the pandemic and learning the skills needed to record, edit, and produce weekly virtual music videos for my job. </p>
+  <p>I have a life-long love of learning (some would describe me as a serial hobbyist) and I'm excited to embark on a new career path where I can keep learning new things in a contantly changing field.</p>
+  <h4>What are my goals?</h4>
   <p>I started simple and gradually grew my learning journal site. I would take notes about what I was learning. After each learning session, I'd use my notes to not only reflect on what I learned but also write short summaries of what I learned using my own words.</p>
   <p>That helped me grok what I was learning, and I realized that posting my learning summaries was also helping others learn and stay motivated.</p>
 </div>
