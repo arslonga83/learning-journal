@@ -12,13 +12,13 @@ export function loadPost(postId) {
       <p class="blog-body">${selectedPost.text}</p> 
       <img class="blog-img" src=${selectedPost.imgUrl} alt="">
       <div class="about-content">
-      <h4>How I stay committed to learning</h4>
-      <p>I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create simple projects using what I learned or work new techniques into existing projects.</p>
-      <p>While that was fun, I felt like it would be helpful to share what I was learning and most things about my journey with the world.</p>
-      <h4>How I got started</h4>
-      <p>I started simple and gradually grew my learning journal site. I would take notes about what I was learning. After each learning session, I'd use my notes to not only reflect on what I learned but also write short summaries of what I learned using my own words.</p>
-      <p>That helped me grok what I was learning, and I realized that posting my learning summaries was also helping others learn and stay motivated.</p>
-      </div>
+      <h4>How did I get here?</h4>
+      <p>After more than 20 years as a performing musician, I rediscovered a love of tech when I found myself working from home during the pandemic and learning the skills needed to record, edit, and produce weekly virtual music videos for my job. </p>
+      <p>I have a life-long love of learning (some would describe me as a serial hobbyist) and I'm excited to embark on a new career path where I can keep learning new things in a contantly changing field.</p>
+      <h4>What are my goals?</h4>
+      <p>I want to keep learning new skills. I feel that I can reach a point where I'm qualified to apply for coding jobs.</p>
+      <p>I'm also realistic, and don't expect to be single-handedly coding the next Facebook in the next few months. I hope to find an entry-level position with a great team of colleagues who I can learn from as I begin my new career.</p>
+    </div>
       <span class="posts-header">Recent Posts</span>
     </div>
 `
