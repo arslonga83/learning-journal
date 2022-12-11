@@ -7,6 +7,7 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   height: 100%;
+
 }
 
 /* nav section */
@@ -55,7 +56,7 @@ nav {
 
 /* main section */
 .hero {
-  background: url('./images/hero-img.png');
+  background: url('./images/hero-img.jpeg');
   background-size: cover;
   background-position: center;
   color: #FFFFFF;
@@ -121,9 +122,9 @@ nav {
 
 .blog-img {
   padding: 2em 0;
+  margin: 0 auto;
   object-fit: cover;
-  width: 100%;
-  max-height: 480px;
+  width: 80%;
 }
 
 /* cards section */
@@ -156,6 +157,7 @@ a:hover {
 .card-img {
   width: 100%;
   cursor: pointer;
+  box-shadow: 0 0 5px black;
 }
 
 .card-img:hover {
