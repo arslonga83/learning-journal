@@ -1,4 +1,4 @@
-// personalized ideas... performing career, pandemic video recording for job, earlist projects before scrimba, a couple of scrimba projects, link to github/linkedin?
+
 
 export const blogPosts = [
   {
@@ -15,7 +15,7 @@ export const blogPosts = [
     imgUrl: './images/music-video-screenshot.jpeg',
     title: "I guess I make videos now?",
     summary: "The pandemic was a struggle in many respects, but also reignited my love of learning new things.",
-    text: "At the start of the pandemic, the church where I was working closed its doors and we were asked to figure out how to offer virtual music to the congregation. This started me on a journey of discovery, from early cell phone videos to later edited productions including voices, organ, brass quintet, and percussion, all recorded separately from the musician's homes. I spent more time at my computer than I had since college, and taught myself all sorts of new skills using Logic Pro and Final Cut Pro. This reignited my love of tech and learning new things...'oh right, I like other things besides music!'"
+    text: "At the start of the pandemic, the church where I was working closed its doors and we were asked to figure out how to offer virtual music to the congregation. This started me on a journey of discovery, from early cell phone videos to later edited productions including voices, organ, brass quintet, and percussion, all recorded separately from the musician's homes. I spent more time at my computer than I had since college, and taught myself all sorts of new skills using Logic Pro and Final Cut Pro. This reignited my love of tech and learning new things."
   },
   {
     id: 'blog3',
